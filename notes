@@ -1,0 +1,12 @@
+Redis to store userData
+JWT
+Use cookie parser for JWT
+Encrypt_JWT
+
+heroku addons:create heroku-redis:hobby-dev -a login-concept
+
+heroku redis:cli -a login-concept
+heroku redis:cli --confirm login-concept
+
+ioredis npm:
+https://www.npmjs.com/package/ioredis
